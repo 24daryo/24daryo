@@ -10,14 +10,17 @@
 | Twitter | 内容セル |
 
 ## 概要
-### 得意言語
-Python, C#
 
-### その他の使用言語
-C, C++, JavaScript, TypeScript, Swift
+### プログラミング言語
+
+| key | value |
+| ------------- | ------------- |
+| 得意な言語 | Python, C# |
+| 通常使用の言語 | Swift, TypeScript |
+| その他の使用可能な言語 | C, C++, JavaScript |
 
 ### 使用経験のあるフレームワーク
-React,
+React, SwiftUI
 
 ### 主な開発環境
 Unity, Visual Studio Code, Visual Studio, Xcode
