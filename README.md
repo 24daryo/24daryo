@@ -1,4 +1,4 @@
-# 経歴書
+# 経歴
 
 ## 基本情報
 
@@ -22,6 +22,13 @@ React,
 ### 主な開発環境
 Unity, Visual Studio Code, Visual Studio, Xcode
 
+### SaaS
+UiPath, 
+
 ### Unityで開発経験のあるもの
 DoTween, UniRx, エディタ拡張
+
+## 得意なこと＆過去に取り組んだこと
+Pythonによるビッグデータ収集&データ整形, 
+
 
