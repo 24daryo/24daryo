@@ -50,7 +50,6 @@ Pythonによるデータ収集&データ整形,
 サイトは
 <a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
 のURLから閲覧できます。
-
 実装は「stackblitz」を利用しており、ソースコードは
 <a href="https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
 から閲覧できます。
