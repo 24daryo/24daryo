@@ -49,7 +49,8 @@ Pythonによるデータ収集&データ整形,
 ### チュートリアル用デモサイト(React+MaterialUI)
 サイトは以下のURLから閲覧できます。
 https://24daryo-react-sample.stackblitz.io
-<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="400">
+
+<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
 
 
 ## 今後取り組むこと
