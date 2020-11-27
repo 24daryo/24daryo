@@ -46,7 +46,7 @@ Pythonによるデータ収集&データ整形,
 
 ## 成果物
 
-### チュートリアル用デモサイト(React+MaterialUI)
+### 1.チュートリアル用デモサイト(React+MaterialUI)
 サイトはこちらののURLから閲覧できます。
 https://24daryo-react-sample.stackblitz.io
 
