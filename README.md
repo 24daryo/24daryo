@@ -45,6 +45,9 @@ DoTween, UniRx, エディタ拡張
 Pythonによるデータ収集&データ整形, 
 
 ## 成果物
+
+### チュートリアル用デモサイト(React+MaterialUI)
+サイトは以下のURLから閲覧できます。
 https://24daryo-react-sample.stackblitz.io
 
 
