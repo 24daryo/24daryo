@@ -44,6 +44,10 @@ DoTween, UniRx, エディタ拡張
 ## 得意なこと＆過去に取り組んだこと
 Pythonによるデータ収集&データ整形, 
 
+## 成果物
+https://24daryo-react-sample.stackblitz.io
+
+
 ## 今後取り組むこと
 NoSQL(グラフ型データベース), Hadoop(大規模データの分散処理技術)
 
