@@ -51,11 +51,11 @@ Pythonによるデータ収集&データ整形,
 <a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
 のURLから閲覧できます。
 
+実装はstackblitzを利用しており、ソースコードは
+<a href="https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
+から閲覧できます。
 <img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
 
-実装はstackblitzを利用しており、ソースコードは
-<a href="hhttps://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
-から閲覧できます。
 
 ## 今後取り組むこと
 NoSQL(グラフ型データベース), Hadoop(大規模データの分散処理技術)
