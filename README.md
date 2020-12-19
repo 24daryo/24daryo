@@ -33,6 +33,7 @@
 | Visual Studio | ⭐️ |GUIをビジュアルで配置できるのは便利なものの，エディタが重たいので殆ど使用しない |
 | UiPath | ⭐️ |人力のプロセスを自動化して処理させたい場合に使用．基本業務での作業効率化に使用．Windowsのみ対応なのが欠点 |
 
+
 ### Unityに関して
 DoTween, UniRx, エディタ拡張
 | key | value |
@@ -41,14 +42,19 @@ DoTween, UniRx, エディタ拡張
 | 使用経験のあるアセット | UniRx, DoTween, Arbor3 |
 
 
-
 ## 得意なこと＆過去に取り組んだこと
 Pythonによるデータ収集&データ整形, jsonを使用したデータ管理，CSVやExcelとのデータ連携
 
 ## 成果物
 
-### 文化祭での出し物用アプリ(【開発】2019年10月【手法】マークアップ言語+PHP+Azure)
-こちらは私ともう一人の方と共同開発しました。
+### 表情診断アプリ(【開発】2019年10月【手法】マークアップ言語+PHP+Azure)
+こちらは私ともう一人の方と共同開発した、文化祭の出し物用に制作したアプリになります。
+
+ソースコードは
+<a href="https://github.com/24daryo/mitafes2019_app">こちらのGitHubリポジトリ</a>
+から閲覧できます
+
+お題に沿った表情を作り、6回撮影すると結果が診断されます。
 
 <img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
 
