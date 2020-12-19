@@ -9,6 +9,7 @@
 | 最終学歴 | 慶應義塾大学理工学部情報工学科 |
 | 所属 | 慶應義塾大学 大学院理工学研究科 開放環境科学専攻 修士１年(2020/12/19現在) |
 | Twitter | https://twitter.com/ryosukeskill |
+| LinkedIn| https://www.linkedin.com/in/ryosuke-nishda-6460891a7/ |
 
 ## 概要
 
