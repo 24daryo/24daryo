@@ -59,9 +59,11 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 ### 2.自作のホームページ(Wordpress+Cocoon)
 成果物というよりも、自分自身のウェブサイトとなります。
 レンタルサーバにWordpressを構築して作成したものになります。
+
 基本的な構造は作成したものの、どのような層を対象に何を伝えたいのか決まっていないため、今後これを決定した後にコンテンツを充実させようと考えております。
+
 サイトは
-<a href="https://ryosukeskill.com/">
+<a href="https://ryosukeskill.com/">こちら</a>
 のURLから閲覧できます。
  
 <img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
