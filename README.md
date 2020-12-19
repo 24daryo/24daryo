@@ -64,6 +64,7 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 <a href="https://ryosukeskill.com/">
 のURLから閲覧できます。
  
+<img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
 
 
 ## 今後取り組むこと
