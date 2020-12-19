@@ -49,35 +49,37 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 
 ## 成果物
 
-### 表情診断アプリ(【開発】2019年11月【手法】マークアップ言語+PHP+Azure)
+### ①表情診断アプリ(【開発】2019年11月【手法】マークアップ言語+PHP+Azure)
 こちらは私ともう一人の方と共同開発した、文化祭の出し物用に制作したアプリになります。
 | 項目 | 詳細 |
 | ------------- | ------------- |
 | 概要 | 2019年度の文化祭用に開発したWebアプリ |
 | 開発期間 | 2019年8月〜2019年11月 |
-| 使用技術 | HTML+CSS+Javascript+PHP+Azure |
+| 内容 | HTML+CSS+Javascript+PHP+Azure |
 | 課題 | ソースコードの煩雑さ・COREの部分がAzure使用に留まる|
 | ソースコード | https://github.com/24daryo/mitafes2019_app |
 
-お題に沿った表情を作り、6回撮影すると結果が診断されます。
-
 <img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
+
+お題に沿った表情を作り、6回撮影すると結果が診断されます。
 
 実際は黄色い画面に内カメラの映像が表示され、表情を自分で把握できるようになっております。
 
-### 自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
+### ②自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
 成果物というよりも、自分自身のウェブサイトとなります。
-レンタルサーバにWordpressを構築して作成したものになります。
+| 項目 | 詳細 |
+| ------------- | ------------- |
+| 概要 | 自分用のWebサイト |
+| 開発期間 | 2020年7月 |
+| 内容 | WordPress+Cocoonによるデザイン |
+| 課題 | デザインや記事はまだ充実していない |
+| サイトURL | https://ryosukeskill.com/ |
 
 基本的な構造は作成したものの、どのような層を対象に何を伝えたいのか決まっていないため、今後これを決定した後にコンテンツを充実させようと考えております。
 
-サイトは
-<a href="https://ryosukeskill.com/">こちら</a>
-のURLから閲覧できます。
- 
 <img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
 
-### チュートリアル用デモサイト(【開発】2020年9月【手法】React+MaterialUI)
+### ③チュートリアル用デモサイト(【開発】2020年9月【手法】React+MaterialUI)
 サイトは
 <a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
 のURLから閲覧できます。
