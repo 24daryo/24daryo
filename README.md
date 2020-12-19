@@ -47,9 +47,9 @@ DoTween, UniRx, エディタ拡張
 ## 得意なこと＆過去に取り組んだこと
 Pythonによるデータ収集&データ整形, jsonを使用したデータ管理，CSVやExcelとのデータ連携
 
-## 成果物
+# 成果物
 
-### ①表情診断アプリ(【開発】2019年11月【手法】マークアップ言語+PHP+Azure)
+## ①表情診断アプリ(【開発】2019年11月【手法】マークアップ言語+PHP+Azure)
 こちらは私ともう一人の方と共同開発した、文化祭の出し物用に制作したアプリになります。
 | 項目 | 詳細 |
 | ------------- | ------------- |
@@ -59,37 +59,42 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 | 課題 | ソースコードの煩雑さ・COREの部分がAzure使用に留まる|
 | ソースコード | https://github.com/24daryo/mitafes2019_app |
 
+### アプリの様子
 <img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
 
 お題に沿った表情を作り、6回撮影すると結果が診断されます。
 
 実際は黄色い画面に内カメラの映像が表示され、表情を自分で把握できるようになっております。
 
-### ②自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
+## ②自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
 成果物というよりも、自分自身のウェブサイトとなります。
 | 項目 | 詳細 |
 | ------------- | ------------- |
 | 概要 | 自分用のWebサイト |
-| 開発期間 | 2020年7月 |
+| 開発期間 | 2020年7月(１週間以内) |
 | 内容 | WordPress+Cocoonによるデザイン |
 | 課題 | デザインや記事はまだ充実していない |
 | サイトURL | https://ryosukeskill.com/ |
 
-基本的な構造は作成したものの、どのような層を対象に何を伝えたいのか決まっていないため、今後これを決定した後にコンテンツを充実させようと考えております。
-
+### サイトの様子
 <img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
 
-### ③チュートリアル用デモサイト(【開発】2020年9月【手法】React+MaterialUI)
-サイトは
-<a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
-のURLから閲覧できます。
+基本的な構造は作成したものの、どのような層を対象に何を伝えたいのか決まっていないため、今後これを決定した後にコンテンツを充実させようと考えております。
 
-実装は「stackblitz」を利用しており、ソースコードは
-<a href="https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
-から閲覧できます。
+## ③チュートリアル用デモサイト(【開発】2020年9月【手法】React+MaterialUI)
+React+Typescriptでの記述を整理したかったため、作成しました。実装にはStackBlitzを使用し、ソースコードには基本事項や便利なコードも記述しております。
+| 項目 | 詳細 |
+| ------------- | ------------- |
+| 概要 | React開発の整理のために開発 |
+| 開発期間 | 2020年9月(1週間前後) |
+| 内容 | React+Typescript+materialUI |
+| 課題 | ソースコードがやや散らかっている |
+| ソースコードURL| https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx |
+| 作品URL | https://24daryo-react-sample.stackblitz.io |
 
+### サイトの様子
 <img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
-
+ライブラリやプログラミング言語を解説するチュートリアルサイトのような構造を目指しました。
 
 ## 現在習得中の課題
 ・TOEIC
