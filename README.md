@@ -46,18 +46,12 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 
 ## 成果物
 
-### 1.チュートリアル用デモサイト(React+MaterialUI)
-サイトは
-<a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
-のURLから閲覧できます。
+### 文化祭での出し物用アプリ(【開発】2019年10月【手法】マークアップ言語+PHP+Azure)
+こちらは私ともう一人の方と共同開発しました。
 
-実装は「stackblitz」を利用しており、ソースコードは
-<a href="https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
-から閲覧できます。
+<img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
 
-<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
-
-### 2.自作のホームページ(Wordpress+Cocoon)
+### 自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
 成果物というよりも、自分自身のウェブサイトとなります。
 レンタルサーバにWordpressを構築して作成したものになります。
 
@@ -69,13 +63,26 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
  
 <img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
 
-## 3.文化祭での出し物用アプリ(マークアップ言語+PHP+Azure)
-こちらは私ともう一人の方と共同開発しました。
-<img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
+### チュートリアル用デモサイト(【開発】2020年9月【手法】React+MaterialUI)
+サイトは
+<a href="https://24daryo-react-sample.stackblitz.io" target="_blank">こちら</a>	
+のURLから閲覧できます。
+
+実装は「stackblitz」を利用しており、ソースコードは
+<a href="https://stackblitz.com/edit/24daryo-react-sample?file=index.tsx" target="_blank">こちら</a>	
+から閲覧できます。
+
+<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
 
 
 
-## 今後取り組むこと
-NoSQL(グラフ型データベース), Hadoop(大規模データの分散処理技術)
+
+
+
+
+## 現在習得中の課題
+・TOEIC
+・CGに関する研究
+
 
 
