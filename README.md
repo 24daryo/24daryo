@@ -48,7 +48,7 @@ DoTween, UniRx, エディタ拡張
 ## ①表情診断アプリ
 こちらは私ともう一人の方と共同開発した、文化祭の出し物用に制作したアプリになります。
 
-<img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
+<img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/init.png" width="400">
 
 | 項目 | 詳細 |
 | ------------- | ------------- |
@@ -64,7 +64,7 @@ DoTween, UniRx, エディタ拡張
 ## ②自作のホームページ
 成果物というよりも、自分自身のウェブサイトとなります。
 
-<img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
+<img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="400">
 
 | 項目 | 詳細 |
 | ------------- | ------------- |
@@ -81,7 +81,7 @@ React+Typescriptでの記述を整理したかったため、作成しました�
 
 実装にはStackBlitzを使用し、ソースコードには基本事項や便利なコードも記述しております。
 
-<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
+<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="400">
 
 | 項目 | 詳細 |
 | ------------- | ------------- |
