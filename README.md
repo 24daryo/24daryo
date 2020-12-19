@@ -58,6 +58,8 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 
 <img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
 
+実際は黄色い画面に内カメラの映像が表示され、表情を自分で把握できるようになっております。
+
 ### 自作のホームページ(【開発】2020年6月【手法】Wordpress+Cocoon)
 成果物というよりも、自分自身のウェブサイトとなります。
 レンタルサーバにWordpressを構築して作成したものになります。
