@@ -56,6 +56,15 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
 
 <img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="600">
 
+### 2.自作のホームページ(Wordpress+Cocoon)
+成果物というよりも、自分自身のウェブサイトとなります。
+レンタルサーバにWordpressを構築して作成したものになります。
+基本的な構造は作成したものの、どのような層を対象に何を伝えたいのか決まっていないため、今後これを決定した後にコンテンツを充実させようと考えております。
+サイトは
+<a href="https://ryosukeskill.com/">
+のURLから閲覧できます。
+ 
+
 
 ## 今後取り組むこと
 NoSQL(グラフ型データベース), Hadoop(大規模データの分散処理技術)
