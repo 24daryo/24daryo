@@ -69,6 +69,11 @@ Pythonによるデータ収集&データ整形, jsonを使用したデータ管�
  
 <img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="600">
 
+## 3.文化祭での出し物用アプリ(マークアップ言語+PHP+Azure)
+こちらは私ともう一人の方と共同開発しました。
+<img src="https://github.com/24daryo/mitafes2019_app/blob/master/image/odai.png" width="600">
+
+
 
 ## 今後取り組むこと
 NoSQL(グラフ型データベース), Hadoop(大規模データの分散処理技術)
