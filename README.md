@@ -36,6 +36,9 @@
 | Visual Studio | ⭐️ |GUIをビジュアルで配置できるのは便利なものの，エディタが重たいので殆ど使用しない |
 | UiPath | ⭐️ |人力のプロセスを自動化して処理させたい場合に使用．基本業務での作業効率化に使用．Windowsのみ対応なのが欠点 |
 
+### その他使用経験のあるもの
+- JIRA
+
 
 ### Unityに関して
 DoTween, UniRx, エディタ拡張
@@ -96,10 +99,21 @@ React+Typescriptでの記述を整理したかったため、作成しました�
 
 
 
-## 現在習得中の課題
-・TOEIC
+## 現在習得中の課題(2020/12/27現在)
+- TOEIC　公開テスト
 
-・CGに関する研究
+- CGに関する研究
+
+## 今後習得予定のスキル・ツール
+- Vue.js
+- TensorFlow, R, Exploratory, rapidminer
+- data: Google BigQuery, Tresure Data, AWS
+- Alalysis: Analytics360
+- BI: DOMO,datorama,tableau,Rapid Miner
+- Ruby, Go
+- Spring Play Framework Phalcon Ruby on Rails
+- MySQL,PostgreSQL
+- Backlog,Jenkins
 
 ## 今後取り組み、理解を深める項目
 
