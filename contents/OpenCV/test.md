@@ -93,7 +93,7 @@ img = cv2.filter2D(img, -1, kernel)
 
 #### 元画像
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/sample.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sample.png" width="300">
 
 #### 平滑化
 
@@ -105,7 +105,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/averaging.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/averaging.png" width="300">
 
 #### 加重平均
 
@@ -117,7 +117,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/weighted_averaging.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/weighted_averaging.png" width="300">
 
 #### 微分フィルタ
 
@@ -131,7 +131,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/differential_horizon.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/differential_horizon.png" width="300">
 
 縦方向
 
@@ -143,7 +143,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/differential_vertical.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/differential_vertical.png" width="300">
 
 #### プリューウィットフィルタ(Prewitt Filter)
 
@@ -155,7 +155,7 @@ kernel = (1/6) * np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/prewitt.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/prewitt.png" width="300">
 
 #### ソーベルフィルタ(Sobel Filter)
 
@@ -167,7 +167,7 @@ kernel = (1/8) * np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/sobel.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sobel.png" width="300">
 
 #### ラプラシアンフィルタ(Laplacian Filter)
 
@@ -179,7 +179,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/laplacian.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/laplacian.png" width="300">
 
 #### 先鋭化フィルタ(Sharpening Filter)
 
@@ -191,4 +191,4 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/image/sharpening.png" width="300">
+<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sharpening.png" width="300">
