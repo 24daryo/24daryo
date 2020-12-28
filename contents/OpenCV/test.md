@@ -4,7 +4,7 @@
 
 ### 画像の読み込み
 
-```python
+```python3
 # パスを指定
 path = "../image/sample.png"
 
