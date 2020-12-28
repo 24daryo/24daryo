@@ -1,6 +1,6 @@
 # OpenCV(Python)を用いた実装
 
-## 基本事項
+## 【基本事項】
 
 ### ⓪ モジュールの指定
 
@@ -51,13 +51,11 @@ for y in range(height):
             img[y, x, c] = 100 #画素値を入力
 ```
 
-### フィルタリング
+## 【フィルタリング】
 
-#### 学習用
+### 学習用サンプル
 
-5 重ループなので非推奨
-
-あくまで学習用で
+5 重ループなので非推奨。あくまで学習用
 
 ```python
 # カーネルを生成
@@ -79,7 +77,7 @@ for y in range(N, H-N):
 img = copy
 ```
 
-#### 通常利用
+### 通常利用
 
 実行速度の観点から、通常はこちらを使用
 
@@ -88,6 +86,109 @@ img = copy
 kernel = np.full((3, 3), 1/9)
 
 # 畳み込み
-copy = cv2.filter2D(img, -1, kernel)
-img = copy
+img = cv2.filter2D(img, -1, kernel)
 ```
+
+### フィルタ一覧
+
+#### 元画像
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/sample.png" width="300">
+
+#### 平滑化
+
+```python
+kernel = np.array([
+    [1/9, 1/9, 1/9],
+    [1/9, 1/9, 1/9],
+    [1/9, 1/9, 1/9]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/averaging.png" width="300">
+
+#### 加重平均
+
+```python
+kernel = np.array([
+    [1/16, 2/16, 1/16],
+    [2/16, 4/16, 2/16],
+    [1/16, 2/16, 1/16]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/weighted_averaging.png" width="300">
+
+#### 微分フィルタ
+
+横方向
+
+```python
+kernel = np.array([
+    [0,  0,  0],
+    [0, -1,  1],
+    [0,  0,  0]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/differential_horizon.png" width="300">
+
+縦方向
+
+```python
+kernel = np.array([
+    [0,  1,  0],
+    [0, -1,  0],
+    [0,  0,  0]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/differential_vertical.png" width="300">
+
+#### プリューウィットフィルタ(Prewitt Filter)
+
+```python
+kernel = (1/6) * np.array([
+    [-1, 0, 1],
+    [-1, 0, 1],
+    [-1, 0, 1]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/prewitt.png" width="300">
+
+#### ソーベルフィルタ(Sobel Filter)
+
+```python
+kernel = (1/8) * np.array([
+    [-1, 0, 1],
+    [-2, 0, 2],
+    [-1, 0, 1]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/sobel.png" width="300">
+
+#### ラプラシアンフィルタ(Laplacian Filter)
+
+```python
+kernel = np.array([
+    [0,  0,  0],
+    [1, -2,  1],
+    [0,  0,  0]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/laplacian.png" width="300">
+
+#### 先鋭化フィルタ(Sharpening Filter)
+
+```python
+kernel = np.array([
+    [-1, -1, -1],
+    [-1,  9, -1],
+    [-1, -1, -1]
+])
+```
+
+<img src="https://github.com/24daryo/CV/blob/main/contents/image/sharpening.png" width="300">
