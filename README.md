@@ -11,6 +11,10 @@
 | Webサイト | https://ryosukeskill.com/ |
 | Twitter | https://twitter.com/ryosukeskill |
 | LinkedIn| https://www.linkedin.com/in/ryosuke-nishda-6460891a7/ |
+| Wantedly| https://www.wantedly.com/id/ryousuke_nishida |
+
+### 今後登録予定
+- Green
 
 ## 概要
 
