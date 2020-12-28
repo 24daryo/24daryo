@@ -4,7 +4,7 @@
 
 ### 画像の読み込み
 
-```
+```python
 # パスを指定
 path = "../image/sample.png"
 
@@ -14,7 +14,7 @@ img = cv2.imread(path)
 
 ### 画素へのアクセス
 
-```
+```python
 # 画像の高さ、横幅、チャンネル数を取得
 height, width, channels = img.shape[:3]
 
