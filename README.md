@@ -136,7 +136,7 @@ React+Typescript での記述を整理したかったため、作成しました
 
 実際に実装したものは以下にまとめてありますので、是非ご覧ください
 
-[実装一覧](./contents/README.md)
+[実装一覧](contents)
 
 ### Business
 
