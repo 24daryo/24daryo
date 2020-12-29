@@ -6,10 +6,10 @@
 
 ## アカデミック
 
-- コンピュータグラフィックス
-- コンピュータビジョン
-- 機械学習
-- ネットワーク
+- [コンピュータグラフィックス](Academic/ComputerGraphics)
+- [コンピュータビジョン](Academic/ComputerVision)
+- [機械学習](Academic/ComputerVision)
+- [ネットワーク](Academic/ComputerVision)
 
 ## エンジニアリング
 
