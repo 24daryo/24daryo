@@ -112,13 +112,28 @@ def sort(array):
 ### バケットソート
 
 ```python:bucket.py
-def sort(array: list) -> list:
-    size = len(array)
+# バケットソート(制約：0以上の整数配列でのみ使用可能)
+def sort(array) -> list:
+    # 最大要素をバケットのサイズとする
+    size = max(array) + 1
+
+    # バケットを初期化する
+    buckets = list()
     for i in range(size):
-        for j in range(i, size):
-            if array[i] > array[j]:
-                array[i], array[j] = array[j], array[i]
-    return array
+        buckets.append(False)
+
+    # 対応するバケットに要素を追加する
+    for element in array:
+        index = element
+        buckets[index] = True
+
+    # 空の要素を取り除く
+    output = list()
+    for i in range(size):
+        if buckets[i] == True:
+            output.append(i)
+
+    return output
 ```
 
 ### 選択ソート
