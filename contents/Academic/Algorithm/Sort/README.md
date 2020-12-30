@@ -11,7 +11,7 @@
 安定なソート
 オーダー：O(n^2)
 
-```python
+```python:bubble.py
 def sort(array: list) -> list:
     size = len(array)
     for i in range(size):
@@ -23,7 +23,7 @@ def sort(array: list) -> list:
 
 ### マージソート
 
-```python
+```python:merge.py
 def sort(array) -> list:
     size = len(array)
 
@@ -58,7 +58,7 @@ def sort(array) -> list:
 
 ### クイックソート
 
-```python
+```python:quick.py
 def sort(array) -> list:
     # 最大要素をバケットのサイズとする
     size = max(array) + 1
@@ -84,7 +84,7 @@ def sort(array) -> list:
 
 ### シェルソート
 
-```python
+```python:shell.py
 def sort(array):
     h = len(array) // 2
 
@@ -104,7 +104,7 @@ def sort(array):
 
 ### バケットソート
 
-```python
+```python:bucket.py
 def sort(array: list) -> list:
     size = len(array)
     for i in range(size):
@@ -116,7 +116,7 @@ def sort(array: list) -> list:
 
 ### 選択ソート
 
-```python
+```python:selection.py
 def sort(array):
     size = len(array)
     for i in range(size):
@@ -130,7 +130,7 @@ def sort(array):
     return array
 ```
 
-##　ソートの実行時間比較
+## ソートの実行時間比較
 
 ```
 ⭐️実行時間計測⭐️
