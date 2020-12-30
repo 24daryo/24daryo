@@ -21,6 +21,27 @@ def sort(array: list) -> list:
     return array
 ```
 
+### 挿入ソート
+
+```python:selection.py
+# 挿入ソート
+def sort(array):
+    size = len(array)
+
+    for i in range(1, size):
+        target = array[i]
+        blank = i
+
+        # 対象より大きいものは右方向にシフトする。同時に空欄位置も取得する
+        while blank >= 1 and target < array[blank-1]:
+            array[blank] = array[blank-1]
+            blank -= 1
+
+        # シフト後の空スペースに挿入
+        array[blank] = target
+    return array
+```
+
 ### 選択ソート
 
 ```python:selection.py
@@ -154,36 +175,49 @@ def sort(array) -> list:
     return output
 ```
 
-### 挿入ソート
-
-```python:selection.py
-# 挿入ソート
-def sort(array):
-    size = len(array)
-
-    for i in range(1, size):
-        target = array[i]
-        blank = i
-
-        # 対象より大きいものは右方向にシフトする。同時に空欄位置も取得する
-        while blank >= 1 and target < array[blank-1]:
-            array[blank] = array[blank-1]
-            blank -= 1
-
-        # シフト後の空スペースに挿入
-        array[blank] = target
-    return array
-```
-
 ## ソートの実行時間比較
+
+要素数 = 1,000
 
 ```
 ⭐️実行時間計測⭐️
-バブルソート　：4303.65ms
-選択ソート　　：2616.54ms
-マージソート　：  33.44ms
-クイックソート：  19.90ms
-シェルソート　：  16.06ms
-バケットソート：   2.40ms
-挿入ソート　　：   1.58ms
+バブルソート　：  50.09ms
+挿入ソート　　：  39.13ms
+選択ソート　　：  29.56ms
+マージソート　：   3.85ms
+クイックソート：   2.22ms
+シェルソート　：   2.36ms
+バケットソート：   0.21ms
+```
+
+要素数 = 10,000
+
+```
+⭐️実行時間計測⭐️
+バブルソート　：4399.93ms
+挿入ソート　　：4228.87ms
+選択ソート　　：2908.84ms
+マージソート　：  52.14ms
+シェルソート　：  39.57ms
+クイックソート：  30.57ms
+バケットソート：   2.01ms
+```
+
+要素数 = 100,000
+
+```
+⭐️実行時間計測⭐️
+マージソート　：1220.16ms
+シェルソート　： 640.02ms
+クイックソート： 433.45ms
+バケットソート：  23.09ms
+```
+
+要素数 = 1,000,000
+
+```
+⭐️実行時間計測⭐️
+シェルソート　：10941.79ms
+クイックソート：5909.53ms
+バケットソート： 365.84ms
 ```

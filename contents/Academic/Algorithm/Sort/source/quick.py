@@ -32,16 +32,21 @@ def sort(array) -> list:
     return left + mid + right
 
 
-print("⭐️クイックソート⭐️")
+def main():
+    print("⭐️クイックソート⭐️")
 
-array = U.SetArray(20)
-print("配列を初期化")
-print(array)
+    array = U.SetArray(20)
+    print("配列を初期化")
+    print(array)
 
-array = U.Shuffle(array)
-print("シャッフル後")
-print(array)
+    array = U.Shuffle(array)
+    print("シャッフル後")
+    print(array)
 
-array = sort(array)
-print("ソート後")
-print(array)
+    array = sort(array)
+    print("ソート後")
+    print(array)
+
+
+if __name__ == "__main__":
+    main()
