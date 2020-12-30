@@ -89,7 +89,7 @@ img = cv2.filter2D(img, -1, kernel)
 
 #### 元画像
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sample.png" width="300">
+![sample](image/sample.png)
 
 #### 平滑化
 
@@ -101,7 +101,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/averaging.png" width="300">
+![averaging](image/averaging.png)
 
 #### 加重平均
 
@@ -113,7 +113,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/weighted_averaging.png" width="300">
+![weighted_averaging](image/weighted_averaging.png)
 
 #### 微分フィルタ
 
@@ -127,7 +127,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/differential_horizon.png" width="300">
+![differential_horizon](image/differential_horizon.png)
 
 縦方向
 
@@ -139,7 +139,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/differential_vertical.png" width="300">
+![differential_vertical](image/differential_vertical.png)
 
 #### プリューウィットフィルタ(Prewitt Filter)
 
@@ -151,7 +151,7 @@ kernel = (1/6) * np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/prewitt.png" width="300">
+![prewitt](image/prewitt.png)
 
 #### ソーベルフィルタ(Sobel Filter)
 
@@ -163,7 +163,7 @@ kernel = (1/8) * np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sobel.png" width="300">
+![sobel](image/sobel.png)
 
 #### ラプラシアンフィルタ(Laplacian Filter)
 
@@ -175,7 +175,7 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/laplacian.png" width="300">
+![laplacian](image/laplacian.png)
 
 #### 先鋭化フィルタ(Sharpening Filter)
 
@@ -187,4 +187,4 @@ kernel = np.array([
 ])
 ```
 
-<img src="https://github.com/24daryo/CV/blob/main/contents/OpenCV/image/sharpening.png" width="300">
+![sharpening](image/sharpening.png)
