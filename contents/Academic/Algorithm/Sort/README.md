@@ -60,26 +60,33 @@ def sort(array) -> list:
 
 ```python:quick.py
 def sort(array) -> list:
-    # 最大要素をバケットのサイズとする
-    size = max(array) + 1
 
-    # バケットを初期化する
-    buckets = list()
-    for i in range(size):
-        buckets.append(False)
+    # 要素数が１ならそのままリターンする
+    if len(array) <= 1:
+        return array
 
-    # 対応するバケットに要素を追加する
+    # 振り分ける基準値を取得(今回はメジアン)
+    pivot = int(statistics.median(array))
+
+    # 基準値に従い、配列を振り分ける
+    left = []
+    mid = []
+    right = []
     for element in array:
-        index = element
-        buckets[index] = True
+        if element < pivot:  # 基準より小さいものは左へ
+            left.append(element)
+        elif element > pivot:  # 基準より大きいものは右へ
+            right.append(element)
+        else:  # 基準と等しいものは真ん中へ
+            mid.append(element)
 
-    # 空の要素を取り除く
-    output = list()
-    for i in range(size):
-        if buckets[i] == True:
-            output.append(i)
+    # 左右はソートされていると限らないので、再帰的にソートさせる
+    left = sort(left)
+    right = sort(right)
 
-    return output
+    # リストを結合して出力
+    return left + mid + right
+
 ```
 
 ### シェルソート
