@@ -59,6 +59,8 @@ def sort(array) -> list:
 ### クイックソート
 
 ```python:quick.py
+import statistics
+
 def sort(array) -> list:
 
     # 要素数が１ならそのままリターンする
