@@ -21,6 +21,22 @@ def sort(array: list) -> list:
     return array
 ```
 
+### 選択ソート
+
+```python:selection.py
+def sort(array):
+    size = len(array)
+    for i in range(size):
+        # 最小要素の場所を取得する
+        min_id = i
+        for j in range(i, size):
+            if array[j] < array[min_id]:
+                min_id = j
+        # 要素を交換する
+        array[i], array[min_id] = array[min_id], array[i]
+    return array
+```
+
 ### マージソート
 
 ```python:merge.py
@@ -138,19 +154,24 @@ def sort(array) -> list:
     return output
 ```
 
-### 選択ソート
+### 挿入ソート
 
 ```python:selection.py
+# 挿入ソート
 def sort(array):
     size = len(array)
-    for i in range(size):
-        # 最小要素の場所を取得する
-        min_id = i
-        for j in range(i, size):
-            if array[j] < array[min_id]:
-                min_id = j
-        # 要素を交換する
-        array[i], array[min_id] = array[min_id], array[i]
+
+    for i in range(1, size):
+        target = array[i]
+        blank = i
+
+        # 対象より大きいものは右方向にシフトする。同時に空欄位置も取得する
+        while blank >= 1 and target < array[blank-1]:
+            array[blank] = array[blank-1]
+            blank -= 1
+
+        # シフト後の空スペースに挿入
+        array[blank] = target
     return array
 ```
 
