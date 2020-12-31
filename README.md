@@ -44,7 +44,7 @@
 
 ### その他使用経験のあるもの
 
-- JIRA
+- JIRA, Trello
 
 ### Unity に関して
 

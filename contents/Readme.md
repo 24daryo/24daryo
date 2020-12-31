@@ -7,10 +7,10 @@
 ## アカデミック
 
 - [アルゴリズム](Academic/Algorithm)
-- [コンピュータグラフィックス](Academic/ComputerGraphics)
-- [コンピュータビジョン](Academic/ComputerVision)
-- [機械学習](Academic/ComputerVision)
-- [ネットワーク](Academic/ComputerVision)
+- [コンピュータグラフィックス]
+- [コンピュータビジョン]
+- [機械学習]
+- [ネットワーク]
 
 ## エンジニアリング
 
