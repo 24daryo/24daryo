@@ -10,7 +10,7 @@
 | 所属       | 慶應義塾大学 大学院理工学研究科 開放環境科学専攻 修士１年(2020/12/19 現在) |
 | Web サイト | https://ryosukeskill.com/                                                  |
 | Twitter    | https://twitter.com/ryosukeskill                                           |
-| LinkedIn   | https://www.linkedin.com/in/ryosuke-nishda-6460891a7/                      |
+| LinkedIn   | https://www.linkedin.com/in/ryosukeskill/                                  |
 | Wantedly   | https://www.wantedly.com/id/ryousuke_nishida                               |
 
 ### 今後登録予定

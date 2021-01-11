@@ -17,3 +17,7 @@
 - Web アプリ開発
 - Google Cloud Platform(GCP)
 - 3DCG モデリング
+- AI
+  - レコメンド機能
+  - 文字認識
+  - 顔認識
