@@ -1,11 +1,11 @@
 # 機械学習の実装
 
-## 【基本事項】
-
-### ３層構造ニューラルネットワーク
+## ３層構造ニューラルネットワーク
 
 入力層 X、中間層 Y、出力層 Z で構成されたネットワーク
-学習用のため numpy のみで実装されている
+
+学習用のため numpy のみで実装
+
 ほとんど以下の記事を参考にしました
 
 https://qiita.com/takahiro_itazuri/items/d2bea1c643d7cca11352
@@ -35,11 +35,6 @@ class ThreeLayerNetwork:
         self.lr = lr
 
         # 重みの初期化(0~1の間の二次元行列)
-        # 例
-        # W = [[0.23 0.56 0.72]     X =[[0.15]      Y= [[0.67]
-        #      [0.83 0.38 0.52]         [0.21]          [0.39]
-        #      [0.73 0.55 0.02]         [0.33]]         [0.88]
-        #      [0.95 0.73 0.28]]                        [0.27]]
         self.Wyx = np.random.normal(0.0, 1.0, (self.Ynodes, self.Xnodes))
         self.Wzy = np.random.normal(0.0, 1.0, (self.Znodes, self.Ynodes))
 
@@ -61,7 +56,7 @@ class ThreeLayerNetwork:
         Zin = np.dot(self.Wzy, Yout)    # Z = WY
         Zout = self.af(Zin)             # Z <= f_active(Z)
 
-        # YZ層の誤差逆伝搬(∂E/∂Wzy = (∂E/∂Zout)・(∂Zout/∂Zin)・(∂Zin/∂Wzy))
+        # YZ層の誤差逆伝搬
         dE_dZout = (Zout - Zteach)          # z×1行列：E = (1/2)(Zout-Zteach)^2
         dE_dZin = dE_dZout * self.daf(Zout) # z×1行列：Zout = f(Zin)
         dE_dWzy = np.dot(dE_dZin, Yout.T)   # z×1行列・1×y行列=>z×y行列：Zin = Wzy Yout
@@ -73,20 +68,12 @@ class ThreeLayerNetwork:
         dE_dWyx = np.dot(dE_dYin, Xout.T)         # y×1行列・1×x行列 =>y×x行列
         self.Wyx -= self.lr * dE_dWyx             # 誤差の更新
 
-    # 順伝搬(入力データから結果を取得、入力は横一列のベクトル)
+    # 順伝搬
     def feedforward(self, idata):
         # 入力を縦ベクトルに変換
-        # 例
-        # idata = [0.15 0.21 0.33] => Xout = [[0.15]
-        #                                    [0.21]
-        #                                    [0.33]]
         Xout = np.array(idata, ndmin=2).T  # x×1行列
 
         # 隠れ層(Y = f(WX))
-        # W = [[0.23 0.56 0.72]     X =[[0.15]      この場合Yは4行１列の行列
-        #      [0.83 0.38 0.52]         [0.21]
-        #      [0.73 0.55 0.02]         [0.33]]
-        #      [0.95 0.73 0.28]]
         Yin = np.dot(self.Wyx, Xout)    # y×x行列・x×1行列=> y×1行列
         Yout = self.af(Yin)             # y×1行列
 
@@ -98,7 +85,7 @@ class ThreeLayerNetwork:
 
 ```
 
-### 畳み込みニューラルネットワーク(CNN)
+## 畳み込みニューラルネットワーク(CNN)
 
 基本的に TensorFlow の公式チュートリアルをコピペしてコメントを追加しただけです
 
