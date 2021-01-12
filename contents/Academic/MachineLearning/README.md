@@ -10,6 +10,8 @@
 
 https://qiita.com/takahiro_itazuri/items/d2bea1c643d7cca11352
 
+### サンプルコード
+
 ```python
 import numpy as np
 
@@ -162,6 +164,8 @@ Yi = ∑Xi
 
 と推測できる。機械にはこの変換式が与えられていない状況で予測したい
 
+### サンプルコード
+
 ```python
 import tensorflow as tf
 import numpy as np
@@ -175,8 +179,7 @@ np.random.seed(111)
 model = Sequential()
 input_dim = 1
 output_dim = 1
-model.add(layers.SimpleRNN(output_dim, activation=None,
-                           input_shape=(None, input_dim), return_sequences=True))
+model.add(layers.SimpleRNN(output_dim, activation=None,input_shape=(None, input_dim), return_sequences=True))
 # コンパイル
 model.compile(optimizer=optimizers.Adam(lr=0.001), loss="mean_squared_error")
 
@@ -197,7 +200,7 @@ print(test_x.flatten())
 print(test_y.flatten())
 ```
 
-実行結果
+### 実行結果
 
 ```
 ⭐️学習結果⭐️

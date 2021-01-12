@@ -1,6 +1,8 @@
 # Recurrent Neural Network
 # オプティマイザーは以下参照
 # https://keras.io/ja/optimizers/
+# 参考
+# https://qiita.com/everylittle/items/c088564d53cdfcde92cc#fn1
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras import Sequential, layers, optimizers
