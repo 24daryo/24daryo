@@ -3,6 +3,7 @@
 # https://keras.io/ja/optimizers/
 # 参考
 # https://qiita.com/everylittle/items/c088564d53cdfcde92cc#fn1
+
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras import Sequential, layers, optimizers
@@ -25,6 +26,8 @@ n = 51200                           # 学習データ数
 step = 10                           # 時系列データの数
 x = np.random.random((n, step, 1))  # x = [X1, X2, ..., X10]。51200個の学習データあり
 y = x.cumsum(axis=1)                # y = [Y1, Y2, ..., Y10]。例：Y3 = X1+X2+X3
+print(x)
+print(np.array([[1, 2, 3], [2, 3, 4]]))
 
 # 学習
 model.fit(x, y, batch_size=512, epochs=100)

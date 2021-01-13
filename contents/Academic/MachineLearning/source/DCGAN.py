@@ -1,5 +1,5 @@
 # 敵対敵生成ネットワーク
-# 勉強用に以下の記事からコピペしたものとなります
+# 勉強用に以下の記事からコピペして少し改変したものとなります
 # https://qiita.com/triwave33/items/1890ccc71fab6cbca87e
 
 from __future__ import print_function, division
@@ -24,68 +24,68 @@ class GAN():
         self.channels = 1
         self.img_shape = (self.img_rows, self.img_cols, self.channels)
 
-        # その他の変数
-        self.z_dim = 100                # 潜在変数の次元数
-        optimizer = Adam(0.0002, 0.5)   # オプティマイザー
+        # 潜在変数の次元数
+        self.z_dim = 100
+        # オプティマイザー
+        optimizer = Adam(0.0002, 0.5)
 
         # discriminatorモデル
-        self.discriminator = self.__build_discriminator()
+        self.discriminator = self.build_discriminator()
         self.discriminator.compile(loss='binary_crossentropy',
                                    optimizer=optimizer,
                                    metrics=['accuracy'])
 
         # Generatorモデル
-        self.generator = self.__build_generator()  # generatorは単体で学習しないのでコンパイルは必要ない
+        self.generator = self.build_generator()
+        # generatorは単体で学習しないのでコンパイルは必要ない
+        #self.generator.compile(loss='binary_crossentropy', optimizer=optimizer)
 
-        # 生成器と判別器を合体
-        self.combined = self.__build_combined()
+        self.combined = self.build_combined()
+        #self.combined = self.build_combined2()
         self.combined.compile(loss='binary_crossentropy', optimizer=optimizer)
 
-    # 生成器
-    def __build_generator(self):
-
+    def build_generator(self):
         noise_shape = (self.z_dim,)
-
         model = Sequential()
-        model.add(Dense(256, input_shape=noise_shape))
-        model.add(LeakyReLU(alpha=0.2))
-        model.add(BatchNormalization(momentum=0.8))
-        model.add(Dense(512))
-        model.add(LeakyReLU(alpha=0.2))
-        model.add(BatchNormalization(momentum=0.8))
-        model.add(Dense(1024))
-        model.add(LeakyReLU(alpha=0.2))
-        model.add(BatchNormalization(momentum=0.8))
-        model.add(Dense(np.prod(self.img_shape), activation='tanh'))
-        model.add(Reshape(self.img_shape))
-
+        model.add(Dense(1024, input_shape=noise_shape))
+        model.add(BatchNormalization())
+        model.add(Activation('relu'))
+        model.add(Dense(128*7*7))
+        model.add(BatchNormalization())
+        model.add(Activation('relu'))
+        model.add(Reshape((7, 7, 128), input_shape=(128*7*7,)))
+        model.add(UpSampling2D((2, 2)))
+        model.add(Conv2D(64, (5, 5), padding='same'))
+        model.add(BatchNormalization())
+        model.add(Activation('relu'))
+        model.add(UpSampling2D((2, 2)))
+        model.add(Conv2D(1, (5, 5), padding='same'))
+        model.add(Activation('tanh'))
         model.summary()
-
         return model
 
-    # 判別器
-    def __build_discriminator(self):
-
+    def build_discriminator(self):
         img_shape = (self.img_rows, self.img_cols, self.channels)
 
         model = Sequential()
-        model.add(Flatten(input_shape=img_shape))
-        model.add(Dense(512))
-        model.add(LeakyReLU(alpha=0.2))
+        model.add(Conv2D(64, (5, 5), strides=(2, 2),
+                         padding='same', input_shape=img_shape))
+        model.add(LeakyReLU(0.2))
+        model.add(Conv2D(128, (5, 5), strides=(2, 2)))
+        model.add(LeakyReLU(0.2))
+        model.add(Flatten())
         model.add(Dense(256))
-        model.add(LeakyReLU(alpha=0.2))
-        model.add(Dense(1, activation='sigmoid'))
-
-        model.summary()
-
+        model.add(LeakyReLU(0.2))
+        model.add(Dropout(0.5))
+        model.add(Dense(1))
+        model.add(Activation('sigmoid'))
         return model
 
-    def __build_combined(self):
+    def build_combined(self):
         self.discriminator.trainable = False
         model = Sequential([self.generator, self.discriminator])
         return model
 
-    # 学習
     def train(self, epochs, batch_size=128, save_interval=50):
 
         # mnistデータの読み込み
@@ -102,6 +102,7 @@ class GAN():
             # ---------------------
             #  Discriminatorの学習
             # ---------------------
+
             # バッチサイズの半数をGeneratorから生成
             noise = np.random.normal(0, 1, (half_batch, self.z_dim))
             gen_imgs = self.generator.predict(noise)
@@ -122,6 +123,7 @@ class GAN():
             # ---------------------
             #  Generatorの学習
             # ---------------------
+
             noise = np.random.normal(0, 1, (batch_size, self.z_dim))
 
             # 生成データの正解ラベルは本物（1）
@@ -138,7 +140,6 @@ class GAN():
             if epoch % save_interval == 0:
                 self.save_imgs(epoch)
 
-    # 画像を保存
     def save_imgs(self, epoch):
         # row,col
         r, c = 5, 5
