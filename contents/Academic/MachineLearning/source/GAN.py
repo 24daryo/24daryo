@@ -1,5 +1,5 @@
 # 敵対敵生成ネットワーク
-# 勉強用に以下の記事からコピペしたものとなります
+# 勉強用に以下の記事からコピペしただけなので大したことはしておりません
 # https://qiita.com/triwave33/items/1890ccc71fab6cbca87e
 
 from __future__ import print_function, division
