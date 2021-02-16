@@ -1,0 +1,21 @@
+DEBUG:root:ログレベルを DEBUG に変更
+CRITICAL:root:critical
+ERROR:root:error
+WARNING:root:warning
+INFO:root:info
+DEBUG:root:debug
+INFO:root:info test test
+DEBUG : 2021-02-15 01:46:16,590 : ログレベルを DEBUG に変更
+CRITICAL : 2021-02-15 01:46:16,590 : critical
+ERROR : 2021-02-15 01:46:16,591 : error
+WARNING : 2021-02-15 01:46:16,591 : warning
+INFO : 2021-02-15 01:46:16,591 : info
+DEBUG : 2021-02-15 01:46:16,591 : debug
+INFO : 2021-02-15 01:46:16,591 : info test test
+DEBUG : 2021-02-15 01:49:21,575 : ログレベルを DEBUG に変更
+CRITICAL : 2021-02-15 01:49:21,575 : critical
+ERROR : 2021-02-15 01:49:21,575 : error
+WARNING : 2021-02-15 01:49:21,575 : warning
+INFO : 2021-02-15 01:49:21,575 : info
+DEBUG : 2021-02-15 01:49:21,575 : debug
+INFO : 2021-02-15 01:49:21,575 : info test test
