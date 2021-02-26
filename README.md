@@ -74,7 +74,7 @@
 
 成果物というよりも、自分自身のウェブサイトとなります。
 
-<img src="https://github.com/24daryo/CV/blob/main/images/ryosukeskill_website.png" width="400">
+<img src="https://github.com/24daryo/24daryo/blob/main/images/ryosukeskill_website.png" width="400">
 
 | 項目       | 詳細                                                                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -91,7 +91,7 @@ React+Typescript での記述を整理したかったため、作成しました
 
 実装には StackBlitz を使用し、ソースコードには基本事項や便利なコードも記述しております。
 
-<img src="https://github.com/24daryo/CV/blob/main/images/react%2Btypesctipts_Website.png" width="400">
+<img src="https://github.com/24daryo/24daryo/blob/main/images/react%2Btypesctipts_Website.png" width="400">
 
 | 項目             | 詳細                                                                                     |
 | ---------------- | ---------------------------------------------------------------------------------------- |
