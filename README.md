@@ -40,8 +40,9 @@
 
 ## その他使用経験のあるもの
 
-- プロジェクト管理：GitHub
+- ソースコード管理：GitHub
 - プロジェクト管理：JIRA, Trello
+- ツール：Slack, Discord
 
 ## Unity に関して
 
