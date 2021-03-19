@@ -27,6 +27,56 @@
 | Wantedly   | https://www.wantedly.com/id/ryousuke_nishida                               |
 | My Website | https://ryosukeskill.com/                                                   |
 
+# Skills
+
+## Programming language
+
+| level   | value |
+| ---------------------- | ------|
+| Advanced               | Python, C#, |
+| Intermediate | C/C++, Typescript, Javascript, Java|
+| Some experience | Swift, PHP, |
+
+Scheduled to be added : kotlin, Go, Scala, Ruby, Perl, Rust
+
+* Definition of Advanced : OPP, parallelism, computational complexity, data visualization
+
+## Web Technology
+
+| level   | value |
+| -------- | ------|
+| Advanced  | Unity |
+| Intermediate | React TS(& Material UI), UiPath(RPA) |
+| Some experience | Docker, HTML, CSS|
+
+## Cloud 
+
+| services   | experienced |
+| -------- | ------|
+| GCP  | Firebase, SQL(PostgreSQL), GeocodingAPI, Storage |
+| Azure | FaceAPI |
+
+Scheduled to be added : AWS(EC2, S3, RDS, DynamoDB, AIM, CloudFormation, SNS, SQS, SWF)
+
+## Tools
+
+- Editor : Visual Studio Code, Xcode, StackBlitz
+- Code Management : GitHub
+- Project Management : JIRA, Trello
+- Communication : Slack, Discord
+- Visualization : PowerBI
+
+## Front End
+
+## Back End
+
+## Databases
+
+PostgreSQL
+
+## DevOps
+
+
 ## プログラミング言語
 
 | 言語             | 理解度    | 詳細                                                                                                                                             |
@@ -59,52 +109,6 @@
 | 開発経験               | UDP を使用した通信, エディタ拡張によるツール製作, 自作フレームワーク製作, データベース用ライブラリ構築 |
 | 使用経験のあるアセット | UniRx, DoTween, Arbor3, エディタ拡張                                                                   |
 
-# Skills
-
-## Programming language
-
-| level   | value |
-| ---------------------- | ------|
-| Advanced               | Python, C#, |
-| Intermediate | C/C++, Typescript, Javascript, Java|
-| Some experience | Swift, PHP, |
-
-Scheduled to be added : kotlin, Go, Scala, Ruby, Perl, Rust
-
-* Definition of Advanced : OPP, parallelism, computational complexity, data visualization
-
-## Web Technology
-
-| level   | value |
-| -------- | ------|
-| Advanced  | Unity |
-| Intermediate | React TS(& Material UI), UiPath(RPA) |
-| Some experience | GCP, AWS, Docker, HTML, CSS|
-
-## Cloud 
-
-| services   | value |
-| -------- | ------|
-| GCP  | Firebase, SQL(PostgleSQL), GeocodingAPI, Storage |
-| Azure | FaceAPI |
-
-Scheduled to be added : AWS
-
-## Tools
-- Editor : Visual Studio Code, Xcode, StackBlitz
-- Code Management : GitHub
-- Project Management : JIRA, Trello
-- Communication : Slack, Discord
-
-* Definition of Advanced : OPP, parallelism, computational complexity, data visualization
-
-## Front End
-
-## Back End
-
-## Databases
-
-## DevOps
 
 # 【成果物】
 
