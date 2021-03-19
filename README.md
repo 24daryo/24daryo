@@ -47,7 +47,9 @@ Scheduled to be added : kotlin, Go, Scala, Ruby, Perl, Rust
 | -------- | ------|
 | Advanced  | Unity |
 | Intermediate | React TS(& Material UI), UiPath(RPA) |
-| Some experience |  HTML, CSS|
+| Some experience | HTML, CSS |
+
+ Definition of Advanced : Ruby on Rails, 
 
 ## Cloud 
 
@@ -74,13 +76,13 @@ Scheduled to be added : AWS(EC2, S3, RDS, DynamoDB, AIM, CloudFormation, SNS, SQ
 
 PostgreSQL
 
-Scheduled to be added : AWS(EC2, S3, RDS, DynamoDB, AIM, CloudFormation, SNS, SQS, SWF)
+Scheduled to be added :MySQL
 
 ## Server
 
 Scheduled to be added : Docker, Docker, Hadoop, Spark, 
 
-## DevOps
+## 
 
 
 ## プログラミング言語
@@ -186,3 +188,4 @@ React+Typescript での記述を整理することを目標に作成しました
 - Spring Play Framework Phalcon Ruby on Rails
 - MySQL,PostgreSQL
 - Backlog,Jenkins
+- memcached、Elasticsearch
