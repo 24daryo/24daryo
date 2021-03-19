@@ -104,8 +104,6 @@ func Add(a, b int) int {
 }
 ```
 
-`
-
 3. Change the module so that it can be referenced
 
 ```
@@ -119,7 +117,7 @@ replace 1.hello_world/add => ./add
 4. Add module add
 
 ```
-go get hello_world/add
+go get 1.hello_world/add
 ```
 
 5. Build and run
@@ -134,11 +132,8 @@ Hello World
 
 how to add module
 
-````
+```
 go get github.com/gin-gonic/gin
 ```
 
 The recommended development location is the location where the project is created in go / src of the local environment.
-
-## Build a web server
-````
