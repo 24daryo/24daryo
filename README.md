@@ -8,7 +8,7 @@
 | Nationality| Japan                                                                    |
 | My Website | https://ryosukeskill.com/                                                   |
 
-### Education
+### 🎓Education
 
 | Term       | Educational Institution | My Specialty  |
 | ---------- | -------------------------------- | ------------------------------------------ |
