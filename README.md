@@ -65,7 +65,17 @@
 | 開発経験               | UDP を使用した通信, エディタ拡張によるツール製作, 自作フレームワーク製作, データベース用ライブラリ構築 |
 | 使用経験のあるアセット | UniRx, DoTween, Arbor3, エディタ拡張                                                                   |
 
-# Key Skill
+# Skills
+
+## Programming language
+
+| Programming language   | value |
+| ---------------------- | ------|
+| Advanced               | Python(Matpliotlib,Seaborn,BeautifulSoup), C#(Unity) |
+| Intermediate | |
+| Some experience | |
+
+*Definition of Advanced:OPP, parallelism, computational complexity, data visualization
 
 ## Front End
 
