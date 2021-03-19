@@ -8,7 +8,7 @@
 | Nationality| Japan                                                                    |
 | My Website | https://ryosukeskill.com/                                                   |
 
-## Education
+### Education
 
 | Term       | Educational Institution | My Specialty  |
 | ---------- | -------------------------------- | ------------------------------------------ |
@@ -17,7 +17,7 @@
 | 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan|             |
 
 
-## Contact Me
+### Contact Me
 
 | Website    | URL                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
