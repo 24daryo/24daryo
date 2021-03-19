@@ -71,11 +71,11 @@
 
 | Programming language   | value |
 | ---------------------- | ------|
-| Advanced               | Python(Matpliotlib,Seaborn,BeautifulSoup), C#(Unity) |
+| Advanced               | Python(Pandas, Matpliotlib,Seaborn,BeautifulSoup, Pandas, OpenCV), C#(Unity, VC#) |
 | Intermediate | |
 | Some experience | |
 
-*Definition of Advanced:OPP, parallelism, computational complexity, data visualization
+* Definition of Advanced : OPP, parallelism, computational complexity, data visualization
 
 ## Front End
 
