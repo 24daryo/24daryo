@@ -21,7 +21,7 @@
 
 ## Contact me
 
-| Key       | Value                                                                       |
+|        | URL                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
 | Twitter    | https://twitter.com/ryosukeskill                                           |
 | LinkedIn   | https://www.linkedin.com/in/ryosukeskill/                                  |
