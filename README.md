@@ -29,7 +29,7 @@
 
 # Skills
 
-## Programming language
+## Programming Language
 
 | level   | value |
 | ---------------------- | ------|
@@ -47,7 +47,7 @@ Scheduled to be added : kotlin, Go, Scala, Ruby, Perl, Rust
 | -------- | ------|
 | Advanced  | Unity |
 | Intermediate | React TS(& Material UI), UiPath(RPA) |
-| Some experience | Docker, HTML, CSS|
+| Some experience |  HTML, CSS|
 
 ## Cloud 
 
@@ -73,6 +73,12 @@ Scheduled to be added : AWS(EC2, S3, RDS, DynamoDB, AIM, CloudFormation, SNS, SQ
 ## Databases
 
 PostgreSQL
+
+Scheduled to be added : AWS(EC2, S3, RDS, DynamoDB, AIM, CloudFormation, SNS, SQS, SWF)
+
+## Server
+
+Scheduled to be added : Docker, Docker, Hadoop, Spark, 
 
 ## DevOps
 
