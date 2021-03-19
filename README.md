@@ -66,8 +66,10 @@
 | level   | value |
 | ---------------------- | ------|
 | Advanced               | Python, C#, |
-| Intermediate | C/C++, Typescript, Javascript|
-| Some experience | Swift, PHP|
+| Intermediate | C/C++, Typescript, Javascript, Java|
+| Some experience | Swift, PHP, |
+
+Scheduled to be added : kotlin, Go, Scala, Ruby, Perl, Rust
 
 * Definition of Advanced : OPP, parallelism, computational complexity, data visualization
 
@@ -77,7 +79,16 @@
 | -------- | ------|
 | Advanced  | Unity |
 | Intermediate | React TS(& Material UI), UiPath(RPA) |
-| Some experience | HTML, CSS|
+| Some experience | GCP, AWS, Docker, HTML, CSS|
+
+## Cloud 
+
+| services   | value |
+| -------- | ------|
+| GCP  | Firebase, SQL(PostgleSQL), GeocodingAPI, Storage |
+| Azure | FaceAPI |
+
+Scheduled to be added : AWS
 
 ## Tools
 - Editor : Visual Studio Code, Xcode, StackBlitz
