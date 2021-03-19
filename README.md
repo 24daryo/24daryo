@@ -4,11 +4,9 @@
 
 | Key       | Value                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
-| 名前       | 西田良輔                                                                   |
-| Nationality  | Japan                                                                    |
-| 最終学歴   | 慶應義塾大学理工学部情報工学科                                         |
-| 所属       | 慶應義塾大学 大学院理工学研究科 開放環境科学専攻 修士１年(2020/12/19 現在) |
-| Web サイト | https://ryosukeskill.com/                                         |
+| Name       | Ryosuke Nishida (西田良輔)                                                  |
+| Nationality| Japan                                                                    |
+| My Website | https://ryosukeskill.com/                                                   |
 
 ## Education
 
@@ -19,9 +17,9 @@
 | 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan|             |
 
 
-## Contact me
+## Contact Me
 
-|        | URL                                                                       |
+| Website    | URL                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
 | Twitter    | https://twitter.com/ryosukeskill                                           |
 | LinkedIn   | https://www.linkedin.com/in/ryosukeskill/                                  |
