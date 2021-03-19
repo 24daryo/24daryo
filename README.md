@@ -1,14 +1,29 @@
 # 【CV】
 
-## 概要
+## About Me
 
-| 項目       | 詳細                                                                       |
+| Key       | Value                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
 | 名前       | 西田良輔                                                                   |
-| 出身       | 埼玉県                                                                     |
-| 最終学歴   | 慶應義塾大学理工学部情報工学科                                             |
+| Nationality  | Japan                                                                    |
+| 最終学歴   | 慶應義塾大学理工学部情報工学科                                         |
 | 所属       | 慶應義塾大学 大学院理工学研究科 開放環境科学専攻 修士１年(2020/12/19 現在) |
-| Web サイト | https://ryosukeskill.com/                                                  |
+| Web サイト | https://ryosukeskill.com/                                         |
+
+## Education
+
+| Key       | Value                                                                       |
+| ---------- | -------------------------------------------------------------------------- |
+| 2016/04-2020/03   | Keio University, Tokyo, Japan　<br> Graduate School of Science and Technology,
+School of Science for Open and Environmental Systems,
+Center for Information and Computer Science                                       |
+| 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan             |
+
+
+## Contact me
+
+| Key       | Value                                                                       |
+| ---------- | -------------------------------------------------------------------------- |
 | Twitter    | https://twitter.com/ryosukeskill                                           |
 | LinkedIn   | https://www.linkedin.com/in/ryosukeskill/                                  |
 | Wantedly   | https://www.wantedly.com/id/ryousuke_nishida                               |
@@ -50,6 +65,16 @@
 | ---------------------- | ------------------------------------------------------------------------------------------------------ |
 | 開発経験               | UDP を使用した通信, エディタ拡張によるツール製作, 自作フレームワーク製作, データベース用ライブラリ構築 |
 | 使用経験のあるアセット | UniRx, DoTween, Arbor3, エディタ拡張                                                                   |
+
+# Key Skill
+
+## Front End
+
+## Back End
+
+## Databases
+
+## DevOps
 
 # 【成果物】
 
