@@ -14,9 +14,7 @@
 
 | Key       | Value                                                                       |
 | ---------- | -------------------------------------------------------------------------- |
-| 2016/04-2020/03   | Keio University, Tokyo, Japan　<br> Graduate School of Science and Technology,
-School of Science for Open and Environmental Systems,
-Center for Information and Computer Science                                       |
+| 2016/04-2020/03   | Keio University, Tokyo, Japan　<br> Graduate School of Science and Technology,School of Science for Open and Environmental Systems,Center for Information and Computer Science                                       |
 | 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan             |
 
 
