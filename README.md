@@ -52,12 +52,6 @@
 | Visual Studio      | ⭐️       | GUI をビジュアルで配置できるのは便利なものの，基本は VSCode を使用                                                                    |
 | UiPath             | ⭐️       | 人力のプロセスを自動化して処理させたい場合に使用．基本業務での作業効率化に使用．                                                      |
 
-## その他使用経験のあるもの
-
-- ソースコード管理：GitHub
-- プロジェクト管理：JIRA, Trello
-- ツール：Slack, Discord
-
 ## Unity に関して
 
 | key                    | value                                                                                                  |
@@ -69,11 +63,27 @@
 
 ## Programming language
 
-| Programming language   | value |
+| level   | value |
 | ---------------------- | ------|
-| Advanced               | Python(Pandas, Matpliotlib,Seaborn,BeautifulSoup, Pandas, OpenCV), C#(Unity, VC#) |
-| Intermediate | |
-| Some experience | |
+| Advanced               | Python, C#, |
+| Intermediate | C/C++, Typescript, Javascript|
+| Some experience | Swift, PHP|
+
+* Definition of Advanced : OPP, parallelism, computational complexity, data visualization
+
+## Web Technology
+
+| level   | value |
+| -------- | ------|
+| Advanced  | Unity |
+| Intermediate | React TS(& Material UI), UiPath(RPA) |
+| Some experience | HTML, CSS|
+
+## Tools
+- Editor : Visual Studio Code, Xcode, StackBlitz
+- Code Management : GitHub
+- Project Management : JIRA, Trello
+- Communication : Slack, Discord
 
 * Definition of Advanced : OPP, parallelism, computational complexity, data visualization
 
