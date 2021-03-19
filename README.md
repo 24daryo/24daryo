@@ -12,11 +12,11 @@
 
 ## Education
 
-| Key       | Value                                                                       |
-| ---------- | -------------------------------------------------------------------------- |
-| 2020/04-Present   | Keio University, Tokyo, Japan (Master Student in Computer Science)|
-| 2016/04-2020/03   | Keio University, Tokyo, Japan　(Bachelor Student in Computer Science)|
-| 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan             |
+| Term       | Educational Institution | Affiliation |
+| ---------- | -------------------------------- | ------------------------------------------ |
+| 2020/04-Present   | Keio University, Tokyo, Japan | Master Student in Computer Science|
+| 2016/04-2020/03   | Keio University, Tokyo, Japan　| Bachelor Student in Computer Science |
+| 2012/04-2015/03   | Saitama Prefectural Kawagoe High School, Saitama, Japan|             |
 
 
 ## Contact me
