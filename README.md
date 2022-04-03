@@ -1,21 +1,7 @@
-<h1 align="center">Hi 👋, I'm Ryosuke Nishida</h1>
+# Hi 👋, I'm Ryosuke Nishida
 
-[![Twitter: ryosukeskill](https://img.shields.io/twitter/follow/ryosukeskill?style=social)](https://twitter.com/maki_saki)
+[![Twitter: ryosukeskill](https://img.shields.io/twitter/follow/ryosukeskill?style=social)](https://twitter.com/ryosukeskill)
 ![Visitors](https://visitor-badge.glitch.me/badge?page_id=24daryo&left_color=gray&right_color=blue)
-
-<h3 align="center">A passionate frontend developer from Japan</h3>
-
-<h3 align="left">Connect with me</h3>
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/ryosukeskill/" target="blank">
-    <img
-      src="https://img.icons8.com/fluency/48/000000/linkedin.png"
-      alt="24daryo"
-      width="40"
-    />
-  </a>
-</p>
 
 ### Languages and Tools
 
@@ -180,3 +166,15 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=24daryo&layout=compact" 
   width="43%"/>
 </a>
+
+<h3 align="left">Connect with me</h3>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/ryosukeskill/" target="blank">
+    <img
+      src="https://img.icons8.com/fluency/48/000000/linkedin.png"
+      alt="24daryo"
+      width="40"
+    />
+  </a>
+</p>
