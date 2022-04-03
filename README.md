@@ -7,10 +7,10 @@
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=24daryo&theme=vue)
 
-<div style="width:100%; display:flex; box-sizing:border-box">
-<img src="https://github-readme-stats.vercel.app/api?username=24daryo&count_private=true&show_icons=true" width="53%"/>
+<div style="display:flex; box-sizing:border-box">
+<img src="https://github-readme-stats.vercel.app/api?username=24daryo&count_private=true&show_icons=true" width="50%"/>
 <img width="16px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=24daryo&layout=compact" width="44.2%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=24daryo&layout=compact" width="42.2%"/>
 </div>
 
 ## Skills
