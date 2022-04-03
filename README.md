@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ryosuke Nishida</h1>
 
+[![Twitter: ryosukeskill](https://img.shields.io/twitter/follow/ryosukeskill?style=social)](https://twitter.com/maki_saki)
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=24daryo&left_color=gray&right_color=blue)
+
 <h3 align="center">A passionate frontend developer from Japan</h3>
 
 <h3 align="left">Connect with me</h3>
@@ -165,6 +168,8 @@
     />
   </a>
 </p>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=24daryo&theme=vue)
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=24daryo&count_private=true&show_icons=true" 
