@@ -1,7 +1,7 @@
 # Hi 👋, I'm Ryosuke Nishida
 
-[![](https://img.shields.io/badge/Twitter-1DA1F2?&logo=twitter&logoColor=white)](https://twitter.com/ryosukeskill)
-[![](https://img.shields.io/badge/LinkedIn-0077B5?&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryosukeskill/)
+<a href="https://twitter.com/ryosukeskill" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/ryosukeskill/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?&logo=linkedin&logoColor=white"/></a>
 
 ## Status
 
