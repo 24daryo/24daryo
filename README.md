@@ -32,6 +32,7 @@
 ![](https://img.shields.io/static/v1?label=GCP&message=Storage&color=white)
 ![](https://img.shields.io/static/v1?label=GCP&message=SQL&color=white)
 ![](https://img.shields.io/static/v1?label=GCP&message=API%20Gateway&color=white)
+![](https://img.shields.io/static/v1?label=GCP&message=Cloud%20Run&color=white)
 
 ### Frontend developing
 
@@ -58,6 +59,12 @@
 ![](https://img.shields.io/static/v1?label=&message=path%20tracing&color=white)
 ![](https://img.shields.io/static/v1?label=&message=editor%20extending&color=white)
 ![](https://img.shields.io/static/v1?label=&message=compute%20shader&color=white)
+
+### Languages
+
+![](https://img.shields.io/static/v1?label=Japanese&message=Native&color=white)
+![](https://img.shields.io/static/v1?label=English&message=Business%20Beginner&color=white)
+![](https://img.shields.io/static/v1?label=French&message=Learner%20Level&color=white)
 
 <!-- ## Books I read -->
 
